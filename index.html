@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>scratch card</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="card">
-        <div class="base">Hi Srinitha <hr> <h1>You Won <br>500 </h1>  </div>
-        <canvas id="scratch" width="200" height="300"></canvas>
+<html>
+    <head>
+ 
+        <meta charset="UTF-8">
+ 
+        <title>HTML5 Canvas - Scratch Card</title>
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+         
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+ 
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src="scratch-card.js"></script>
-     </div>
-     <br><br>
-
-     <a href="index.html" class="button" style="text-align: center;" role="button">Try it!</a>
-    
-</body>
+ 
+    </head>
+ 
+    <body>
+ 
+    <div class="container" id="scratch-container">
+        <canvas class="canvas" id="scratch-canvas" width="300" height="190"></canvas>
+        <div class="winner-box">
+            <h2 class="blinker">WINNER!!</h2>
+            <h3>Your code is:</h3>
+            <h1>AbC12dEf</h1>
+        </div>
+    </div>
+ 
+    </body>
 </html>
