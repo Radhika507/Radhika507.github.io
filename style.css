@@ -1,0 +1,35 @@
+.card{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+   }    
+   
+ .base, #scratch {
+   
+   cursor: default;
+   height: 300px;
+   width: 200px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     cursor: grabbing;
+ }
+ .base {
+   line-height: 60px;
+   text-align: center;
+ }
+ #scratch {
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+ }
+ .button {
+    background-color: Crimson;  
+    border-radius: 5px;
+    color: white;
+    
+    padding: 2em;
+    text-decoration: none;
+  }
