@@ -119,5 +119,5 @@ $(function(){
     }
    
 });
-var vh=Math.floor(Math.random()*1000)+1)
-document.querySelector("h1").innerHTML=vh
+var vh=Math.floor(Math.random()*1000)+1);
+document.querySelector("h1").innerHTML=vh;
